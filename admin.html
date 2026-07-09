@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<section class="admin-dashboard">
+
+<h1>
+
+Admin Dashboard
+
+</h1>
+
+<div class="stats-card">
+
+<h2>
+
+Total Orders
+
+</h2>
+
+<p id="totalOrders">
+
+0
+
+</p>
+
+</div>
+
+<h2>Manage Products</h2>
+
+<form id="productForm">
+
+<input
+type="text"
+id="productName"
+placeholder="Product Name"
+required>
+
+<input
+type="number"
+id="productPrice"
+placeholder="Price"
+required>
+
+<input
+type="text"
+id="productColor"
+placeholder="Color"
+required>
+
+<input
+type="text"
+id="productFabric"
+placeholder="Fabric"
+required>
+
+<input
+type="text"
+id="productOccasion"
+placeholder="Occasion"
+required>
+
+<input
+type="text"
+id="productImage"
+placeholder="Image Path"
+required>
+
+<button type="submit">
+
+Add Product
+
+</button>
+
+</form>
+
+<div id="adminProducts">
+
+</div>
+
+<h2>
+
+Recent Orders
+
+</h2>
+
+<div id="ordersContainer">
+
+</div>
+
+</section>
+
+<script src="js/admin.js"></script>
+
+</body>
+
+</html>
